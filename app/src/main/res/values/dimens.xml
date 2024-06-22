@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margenprincipal">7dp</dimen>
+    <dimen name="tamañotitulo">70px</dimen>
+    <dimen name="TamañoInstrucciones">8pt</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Banco Triunfo</string>
+    <string name="usuario">Ingrese usuario</string>
+    <string name="constraseña">Ingrese contraseña</string>
+    <string name="enviar">Enviar</string>
+    <string name="crearUsuario">Crear usuario</string>
+    <string name="recuperarContraseña">Recuperar contraseña</string>
+    <string name="IngreseCorreo">Ingrese correo</string>
+    <string name="correo">correo@mail.com</string>
+    <string name="CrearContraseña">Crear contraseña</string>
+    <string name="contraseña">abcd1234</string>
+    <string name="CrearUsuario">Crear usuario</string>
+    <string name="mostrarUsuario">Mostrar Usuario</string>
+</resources>

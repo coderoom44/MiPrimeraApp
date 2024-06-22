@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margenprincipal"
+    tools:context=".MainActivity">
+    <!-- fds -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/tamañotitulo"
+        android:layout_gravity="center">
+    </TextView>
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="#03A9F4">
+    </EditText>
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/constraseña"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#00BCD4">
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:layout_gravity="center"
+        android:onClick="accederLogin">
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crearUsuario"
+        android:layout_gravity="center"
+        android:onClick="crearUsuario">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recuperarContraseña"
+        android:layout_gravity="center"
+        android:onClick="recuperarContraseña">
+
+    </TextView>
+</LinearLayout>
